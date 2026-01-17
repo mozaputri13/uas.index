@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kuis Online Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+    <h1>Kuis Online</h1>
+
+    <form id="quizForm">
+        <div class="question">
+            <p> 1. Ibu kota negara indonesia adalah....</p>
+            <label><input type="radio" name="q1" value="a"> Bandung</label>
+            <label><input type="radio" name="q1" value="a"> Surabaya</label>
+            <label><input type="radio" name="q1" value="a"> Jakarta</label>
+            <label><input type="radio" name="q1" value="a"> Medan</label>
+        </div>
+
+        <div class="question">
+            <p> 2. Jumlah sila dalam pancasila adalah....</p>
+            <label><input type="radio" name="q2" value="a"> 3 </label>
+            <label><input type="radio" name="q2" value="a"> 4 </label>
+            <label><input type="radio" name="q2" value="a"> 5 </label>
+            <label><input type="radio" name="q2" value="a"> 6 </label>
+        </div>
+
+        <div class="question">
+            <p> 3 . Lambang negara indonesia adalah....</p>
+            <label><input type="radio" name="q3" value="a"> Harimau </label>
+            <label><input type="radio" name="q3" value="a"> Garuda Pancasila</label>
+            <label><input type="radio" name="q3" value="a"> Elang Jawa  </label>
+            <label><input type="radio" name="q3" value="a"> Rajawali </label>
+        </div>
+
+        <div class="question">
+            <p> 4. Alat yang digunakan untuk mengukur suhu adalah....</p>
+            <label><input type="radio" name="q4" value="a"> Barometer</label>
+            <label><input type="radio" name="q4" value="a"> Termometer</label>
+            <label><input type="radio" name="q4" value="a"> Higrometer</label>
+            <label><input type="radio" name="q4" value="a"> Speedometer</label>
+        </div>
+
+        <div class="question">
+            <p> 5. Planet yang dikenal sebagai planet merah adalah....</p>
+            <label><input type="radio" name="q5" value="a"> Venus </label>
+            <label><input type="radio" name="q5" value="a"> Mars </label>
+            <label><input type="radio" name="q5" value="a"> Jupiter </label>
+            <label><input type="radio" name="q5" value="a"> Saturnus</label>
+        </div>
+
+        <button type="button" onclick="cekJawaban()">Submit</button>
+        <button type="button" onclick="resetQuiz()">Ulangi Kuis</button>
+    </form>
+
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
